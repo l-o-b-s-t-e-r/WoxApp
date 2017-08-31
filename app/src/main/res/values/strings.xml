@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WoxApp</string>
+    <string name="empty_list">Routes list is empty :(</string>
+
+    <string-array name="stop_filed_hints">
+        <item>From</item>
+        <item>To</item>
+        <item>Add stop</item>
+        <item>Add stop</item>
+        <item>Last stop</item>
+    </string-array>
+</resources>

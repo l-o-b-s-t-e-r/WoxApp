@@ -1,0 +1,39 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorRouteBox">
+
+        <LinearLayout
+            android:id="@+id/route_box"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="34dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/route_box_padding"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="@dimen/fab_small_margin"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_file_download_black_24dp"
+            app:fabSize="mini" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="@dimen/fab_small_margin"
+            android:layout_marginStart="66dp"
+            android:src="@drawable/ic_file_upload_black_24dp"
+            app:fabSize="mini" />
+
+    </FrameLayout>
+</layout>
